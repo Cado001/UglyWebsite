@@ -1,0 +1,53 @@
+body{
+    background-color: magenta;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    border: 2.5px;
+    text-align: left;
+}
+
+header{
+    background-color: rgb(240, 226, 30);
+    font-size: 2rem;
+    font-variant: oblique;
+    border: .5px rgb(64, 128, 0);
+    text-align: center;
+    margin: 5px;
+}
+
+section{
+    background-color: rgb(20, 183, 80);
+    font-size: 2;
+    padding: 2rem;
+    margin: 23px;
+    margin-bottom: 3rem;
+}
+
+#Led{
+    border: 10px rgb(17, 75, 161);
+    background-color: chocolate;
+    text-align: center;
+    font-size: 12px;
+}
+
+#salopri_list{
+    color: rgb(174, 73, 29);
+}
+
+#Grimace_list{
+    color: yellow;
+}
+
+ol{
+    display: inline-table;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style:lower-latin;
+}
+
+li{
+    border: 3px solid rgb(20, 13, 232);
+    margin: 10px;
+    list-style: georgian;
+}
